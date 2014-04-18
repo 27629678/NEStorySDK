@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC4EDBB18FFCCBF00DEA097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */; };
+		CEC4EDC918FFCCC000DEA097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDC818FFCCC000DEA097 /* XCTest.framework */; };
+		CEC4EDCA18FFCCC000DEA097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */; };
+		CEC4EDCC18FFCCC000DEA097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDCB18FFCCC000DEA097 /* UIKit.framework */; };
+		CEC4EDCF18FFCCC000DEA097 /* libNEStorySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDB718FFCCBF00DEA097 /* libNEStorySDK.a */; };
+		CEC4EDD518FFCCC000DEA097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EDD318FFCCC000DEA097 /* InfoPlist.strings */; };
+		CEC4EDD718FFCCC000DEA097 /* NEStorySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EDD618FFCCC000DEA097 /* NEStorySDKTests.m */; };
+		CEC4EDE518FFCD0800DEA097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */; };
+		CEC4EDE718FFCD0800DEA097 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDE618FFCD0800DEA097 /* CoreGraphics.framework */; };
+		CEC4EDE818FFCD0800DEA097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDCB18FFCCC000DEA097 /* UIKit.framework */; };
+		CEC4EDEE18FFCD0800DEA097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EDEC18FFCD0800DEA097 /* InfoPlist.strings */; };
+		CEC4EDF018FFCD0800DEA097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EDEF18FFCD0800DEA097 /* main.m */; };
+		CEC4EDF418FFCD0800DEA097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EDF318FFCD0800DEA097 /* AppDelegate.m */; };
+		CEC4EDF718FFCD0800DEA097 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EDF518FFCD0800DEA097 /* Main_iPhone.storyboard */; };
+		CEC4EDFA18FFCD0800DEA097 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EDF818FFCD0800DEA097 /* Main_iPad.storyboard */; };
+		CEC4EDFD18FFCD0800DEA097 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EDFC18FFCD0800DEA097 /* ViewController.m */; };
+		CEC4EDFF18FFCD0800DEA097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EDFE18FFCD0800DEA097 /* Images.xcassets */; };
+		CEC4EE0518FFCD0800DEA097 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDC818FFCCC000DEA097 /* XCTest.framework */; };
+		CEC4EE0618FFCD0900DEA097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */; };
+		CEC4EE0718FFCD0900DEA097 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4EDCB18FFCCC000DEA097 /* UIKit.framework */; };
+		CEC4EE0F18FFCD0900DEA097 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC4EE0D18FFCD0900DEA097 /* InfoPlist.strings */; };
+		CEC4EE1118FFCD0900DEA097 /* SDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EE1018FFCD0900DEA097 /* SDKDemoTests.m */; };
+		CEC4EE1A18FFCE0E00DEA097 /* NEStoryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC4EE1918FFCE0E00DEA097 /* NEStoryAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC4EDCD18FFCCC000DEA097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4EDAF18FFCCBF00DEA097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC4EDB618FFCCBF00DEA097;
+			remoteInfo = NEStorySDK;
+		};
+		CEC4EE0818FFCD0900DEA097 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4EDAF18FFCCBF00DEA097 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC4EDE318FFCD0800DEA097;
+			remoteInfo = SDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC4EDB518FFCCBF00DEA097 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEC4EDB718FFCCBF00DEA097 /* libNEStorySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNEStorySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC4EDBE18FFCCC000DEA097 /* NEStorySDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NEStorySDK-Prefix.pch"; sourceTree = "<group>"; };
+		CEC4EDC718FFCCC000DEA097 /* NEStorySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NEStorySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4EDC818FFCCC000DEA097 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CEC4EDCB18FFCCC000DEA097 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CEC4EDD218FFCCC000DEA097 /* NEStorySDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NEStorySDKTests-Info.plist"; sourceTree = "<group>"; };
+		CEC4EDD418FFCCC000DEA097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC4EDD618FFCCC000DEA097 /* NEStorySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NEStorySDKTests.m; sourceTree = "<group>"; };
+		CEC4EDE418FFCD0800DEA097 /* SDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4EDE618FFCD0800DEA097 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC4EDEB18FFCD0800DEA097 /* SDKDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDKDemo-Info.plist"; sourceTree = "<group>"; };
+		CEC4EDED18FFCD0800DEA097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC4EDEF18FFCD0800DEA097 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC4EDF118FFCD0800DEA097 /* SDKDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDKDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CEC4EDF218FFCD0800DEA097 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC4EDF318FFCD0800DEA097 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC4EDF618FFCD0800DEA097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CEC4EDF918FFCD0800DEA097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CEC4EDFB18FFCD0800DEA097 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEC4EDFC18FFCD0800DEA097 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEC4EDFE18FFCD0800DEA097 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC4EE0418FFCD0800DEA097 /* SDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4EE0C18FFCD0900DEA097 /* SDKDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SDKDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CEC4EE0E18FFCD0900DEA097 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC4EE1018FFCD0900DEA097 /* SDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKDemoTests.m; sourceTree = "<group>"; };
+		CEC4EE1818FFCE0E00DEA097 /* NEStoryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NEStoryAPI.h; sourceTree = "<group>"; };
+		CEC4EE1918FFCE0E00DEA097 /* NEStoryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NEStoryAPI.m; sourceTree = "<group>"; };
+		CEC4EE1B18FFCE8300DEA097 /* NEStoryAPIDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEStoryAPIDefines.h; sourceTree = "<group>"; };
+		CEC4EE1C18FFCEC700DEA097 /* NEStoryAPIObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NEStoryAPIObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC4EDB418FFCCBF00DEA097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDBB18FFCCBF00DEA097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EDC418FFCCC000DEA097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDC918FFCCC000DEA097 /* XCTest.framework in Frameworks */,
+				CEC4EDCC18FFCCC000DEA097 /* UIKit.framework in Frameworks */,
+				CEC4EDCA18FFCCC000DEA097 /* Foundation.framework in Frameworks */,
+				CEC4EDCF18FFCCC000DEA097 /* libNEStorySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EDE118FFCD0800DEA097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDE718FFCD0800DEA097 /* CoreGraphics.framework in Frameworks */,
+				CEC4EDE818FFCD0800DEA097 /* UIKit.framework in Frameworks */,
+				CEC4EDE518FFCD0800DEA097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EE0118FFCD0800DEA097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EE0518FFCD0800DEA097 /* XCTest.framework in Frameworks */,
+				CEC4EE0718FFCD0900DEA097 /* UIKit.framework in Frameworks */,
+				CEC4EE0618FFCD0900DEA097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC4EDAE18FFCCBF00DEA097 = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDBC18FFCCBF00DEA097 /* NEStorySDK */,
+				CEC4EDD018FFCCC000DEA097 /* NEStorySDKTests */,
+				CEC4EDE918FFCD0800DEA097 /* SDKDemo */,
+				CEC4EE0A18FFCD0900DEA097 /* SDKDemoTests */,
+				CEC4EDB918FFCCBF00DEA097 /* Frameworks */,
+				CEC4EDB818FFCCBF00DEA097 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC4EDB818FFCCBF00DEA097 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDB718FFCCBF00DEA097 /* libNEStorySDK.a */,
+				CEC4EDC718FFCCC000DEA097 /* NEStorySDKTests.xctest */,
+				CEC4EDE418FFCD0800DEA097 /* SDKDemo.app */,
+				CEC4EE0418FFCD0800DEA097 /* SDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC4EDB918FFCCBF00DEA097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDBA18FFCCBF00DEA097 /* Foundation.framework */,
+				CEC4EDC818FFCCC000DEA097 /* XCTest.framework */,
+				CEC4EDCB18FFCCC000DEA097 /* UIKit.framework */,
+				CEC4EDE618FFCD0800DEA097 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC4EDBC18FFCCBF00DEA097 /* NEStorySDK */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EE1818FFCE0E00DEA097 /* NEStoryAPI.h */,
+				CEC4EE1918FFCE0E00DEA097 /* NEStoryAPI.m */,
+				CEC4EDBD18FFCCC000DEA097 /* Supporting Files */,
+				CEC4EE1B18FFCE8300DEA097 /* NEStoryAPIDefines.h */,
+				CEC4EE1C18FFCEC700DEA097 /* NEStoryAPIObject.h */,
+			);
+			path = NEStorySDK;
+			sourceTree = "<group>";
+		};
+		CEC4EDBD18FFCCC000DEA097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDBE18FFCCC000DEA097 /* NEStorySDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC4EDD018FFCCC000DEA097 /* NEStorySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDD618FFCCC000DEA097 /* NEStorySDKTests.m */,
+				CEC4EDD118FFCCC000DEA097 /* Supporting Files */,
+			);
+			path = NEStorySDKTests;
+			sourceTree = "<group>";
+		};
+		CEC4EDD118FFCCC000DEA097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDD218FFCCC000DEA097 /* NEStorySDKTests-Info.plist */,
+				CEC4EDD318FFCCC000DEA097 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC4EDE918FFCD0800DEA097 /* SDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDF218FFCD0800DEA097 /* AppDelegate.h */,
+				CEC4EDF318FFCD0800DEA097 /* AppDelegate.m */,
+				CEC4EDF518FFCD0800DEA097 /* Main_iPhone.storyboard */,
+				CEC4EDF818FFCD0800DEA097 /* Main_iPad.storyboard */,
+				CEC4EDFB18FFCD0800DEA097 /* ViewController.h */,
+				CEC4EDFC18FFCD0800DEA097 /* ViewController.m */,
+				CEC4EDFE18FFCD0800DEA097 /* Images.xcassets */,
+				CEC4EDEA18FFCD0800DEA097 /* Supporting Files */,
+			);
+			path = SDKDemo;
+			sourceTree = "<group>";
+		};
+		CEC4EDEA18FFCD0800DEA097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EDEB18FFCD0800DEA097 /* SDKDemo-Info.plist */,
+				CEC4EDEC18FFCD0800DEA097 /* InfoPlist.strings */,
+				CEC4EDEF18FFCD0800DEA097 /* main.m */,
+				CEC4EDF118FFCD0800DEA097 /* SDKDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC4EE0A18FFCD0900DEA097 /* SDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EE1018FFCD0900DEA097 /* SDKDemoTests.m */,
+				CEC4EE0B18FFCD0900DEA097 /* Supporting Files */,
+			);
+			path = SDKDemoTests;
+			sourceTree = "<group>";
+		};
+		CEC4EE0B18FFCD0900DEA097 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4EE0C18FFCD0900DEA097 /* SDKDemoTests-Info.plist */,
+				CEC4EE0D18FFCD0900DEA097 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC4EDB618FFCCBF00DEA097 /* NEStorySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4EDDA18FFCCC000DEA097 /* Build configuration list for PBXNativeTarget "NEStorySDK" */;
+			buildPhases = (
+				CEC4EDB318FFCCBF00DEA097 /* Sources */,
+				CEC4EDB418FFCCBF00DEA097 /* Frameworks */,
+				CEC4EDB518FFCCBF00DEA097 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NEStorySDK;
+			productName = NEStorySDK;
+			productReference = CEC4EDB718FFCCBF00DEA097 /* libNEStorySDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEC4EDC618FFCCC000DEA097 /* NEStorySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4EDDD18FFCCC000DEA097 /* Build configuration list for PBXNativeTarget "NEStorySDKTests" */;
+			buildPhases = (
+				CEC4EDC318FFCCC000DEA097 /* Sources */,
+				CEC4EDC418FFCCC000DEA097 /* Frameworks */,
+				CEC4EDC518FFCCC000DEA097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC4EDCE18FFCCC000DEA097 /* PBXTargetDependency */,
+			);
+			name = NEStorySDKTests;
+			productName = NEStorySDKTests;
+			productReference = CEC4EDC718FFCCC000DEA097 /* NEStorySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC4EDE318FFCD0800DEA097 /* SDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4EE1218FFCD0900DEA097 /* Build configuration list for PBXNativeTarget "SDKDemo" */;
+			buildPhases = (
+				CEC4EDE018FFCD0800DEA097 /* Sources */,
+				CEC4EDE118FFCD0800DEA097 /* Frameworks */,
+				CEC4EDE218FFCD0800DEA097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKDemo;
+			productName = SDKDemo;
+			productReference = CEC4EDE418FFCD0800DEA097 /* SDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC4EE0318FFCD0800DEA097 /* SDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4EE1518FFCD0900DEA097 /* Build configuration list for PBXNativeTarget "SDKDemoTests" */;
+			buildPhases = (
+				CEC4EE0018FFCD0800DEA097 /* Sources */,
+				CEC4EE0118FFCD0800DEA097 /* Frameworks */,
+				CEC4EE0218FFCD0800DEA097 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC4EE0918FFCD0900DEA097 /* PBXTargetDependency */,
+			);
+			name = SDKDemoTests;
+			productName = SDKDemoTests;
+			productReference = CEC4EE0418FFCD0800DEA097 /* SDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC4EDAF18FFCCBF00DEA097 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = NetEase;
+				TargetAttributes = {
+					CEC4EDC618FFCCC000DEA097 = {
+						TestTargetID = CEC4EDE318FFCD0800DEA097;
+					};
+					CEC4EE0318FFCD0800DEA097 = {
+						TestTargetID = CEC4EDE318FFCD0800DEA097;
+					};
+				};
+			};
+			buildConfigurationList = CEC4EDB218FFCCBF00DEA097 /* Build configuration list for PBXProject "NEStorySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC4EDAE18FFCCBF00DEA097;
+			productRefGroup = CEC4EDB818FFCCBF00DEA097 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC4EDB618FFCCBF00DEA097 /* NEStorySDK */,
+				CEC4EDC618FFCCC000DEA097 /* NEStorySDKTests */,
+				CEC4EDE318FFCD0800DEA097 /* SDKDemo */,
+				CEC4EE0318FFCD0800DEA097 /* SDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC4EDC518FFCCC000DEA097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDD518FFCCC000DEA097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EDE218FFCD0800DEA097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDFA18FFCD0800DEA097 /* Main_iPad.storyboard in Resources */,
+				CEC4EDFF18FFCD0800DEA097 /* Images.xcassets in Resources */,
+				CEC4EDF718FFCD0800DEA097 /* Main_iPhone.storyboard in Resources */,
+				CEC4EDEE18FFCD0800DEA097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EE0218FFCD0800DEA097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EE0F18FFCD0900DEA097 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC4EDB318FFCCBF00DEA097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EE1A18FFCE0E00DEA097 /* NEStoryAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EDC318FFCCC000DEA097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDD718FFCCC000DEA097 /* NEStorySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EDE018FFCD0800DEA097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EDFD18FFCD0800DEA097 /* ViewController.m in Sources */,
+				CEC4EDF418FFCD0800DEA097 /* AppDelegate.m in Sources */,
+				CEC4EDF018FFCD0800DEA097 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4EE0018FFCD0800DEA097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4EE1118FFCD0900DEA097 /* SDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC4EDCE18FFCCC000DEA097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC4EDB618FFCCBF00DEA097 /* NEStorySDK */;
+			targetProxy = CEC4EDCD18FFCCC000DEA097 /* PBXContainerItemProxy */;
+		};
+		CEC4EE0918FFCD0900DEA097 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC4EDE318FFCD0800DEA097 /* SDKDemo */;
+			targetProxy = CEC4EE0818FFCD0900DEA097 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC4EDD318FFCCC000DEA097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC4EDD418FFCCC000DEA097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC4EDEC18FFCD0800DEA097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC4EDED18FFCD0800DEA097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CEC4EDF518FFCD0800DEA097 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC4EDF618FFCD0800DEA097 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC4EDF818FFCD0800DEA097 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC4EDF918FFCD0800DEA097 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC4EE0D18FFCD0900DEA097 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC4EE0E18FFCD0900DEA097 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC4EDD818FFCCC000DEA097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC4EDD918FFCCC000DEA097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC4EDDB18FFCCC000DEA097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NEStorySDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NEStorySDK/NEStorySDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEC4EDDC18FFCCC000DEA097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NEStorySDK.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NEStorySDK/NEStorySDK-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEC4EDDE18FFCCC000DEA097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemo.app/SDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NEStorySDK/NEStorySDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NEStorySDKTests/NEStorySDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEC4EDDF18FFCCC000DEA097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemo.app/SDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NEStorySDK/NEStorySDK-Prefix.pch";
+				INFOPLIST_FILE = "NEStorySDKTests/NEStorySDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		CEC4EE1318FFCD0900DEA097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemo/SDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDKDemo/SDKDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC4EE1418FFCD0900DEA097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemo/SDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "SDKDemo/SDKDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CEC4EE1618FFCD0900DEA097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemo.app/SDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemo/SDKDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SDKDemoTests/SDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CEC4EE1718FFCD0900DEA097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SDKDemo.app/SDKDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDKDemo/SDKDemo-Prefix.pch";
+				INFOPLIST_FILE = "SDKDemoTests/SDKDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC4EDB218FFCCBF00DEA097 /* Build configuration list for PBXProject "NEStorySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4EDD818FFCCC000DEA097 /* Debug */,
+				CEC4EDD918FFCCC000DEA097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4EDDA18FFCCC000DEA097 /* Build configuration list for PBXNativeTarget "NEStorySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4EDDB18FFCCC000DEA097 /* Debug */,
+				CEC4EDDC18FFCCC000DEA097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC4EDDD18FFCCC000DEA097 /* Build configuration list for PBXNativeTarget "NEStorySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4EDDE18FFCCC000DEA097 /* Debug */,
+				CEC4EDDF18FFCCC000DEA097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC4EE1218FFCD0900DEA097 /* Build configuration list for PBXNativeTarget "SDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4EE1318FFCD0900DEA097 /* Debug */,
+				CEC4EE1418FFCD0900DEA097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC4EE1518FFCD0900DEA097 /* Build configuration list for PBXNativeTarget "SDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4EE1618FFCD0900DEA097 /* Debug */,
+				CEC4EE1718FFCD0900DEA097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC4EDAF18FFCCBF00DEA097 /* Project object */;
+}
