@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NEStoryAPIDefines.h"
-#import "NEStoryAPIObject.h"
+#import <UIKit/UIKit.h>
 
 @interface NEStoryAPI : NSObject
 

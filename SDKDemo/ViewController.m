@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NEStorySDK.h"
+#import "NEStoryAPI.h"
 
 @interface ViewController ()
 
@@ -27,4 +27,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)RefreshTextViewContentAction:(id)sender {
+    UIAlertView* av = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                 message:@"需要版本号3.1.0\n(如果版本太低，会造成无法完成请求，请检查网易识字版本号)"
+                                                delegate:self
+                                       cancelButtonTitle:@"确定" otherButtonTitles:@"如何查看版本号", nil];
+    [av show];
+    [av release];
+}
 @end

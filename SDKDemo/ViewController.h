@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)RefreshTextViewContentAction:(id)sender;
 @end
